@@ -33,8 +33,8 @@ function Animacion() {
 
   return (
     <div className='divanim'>
-        <div class="scroller" data-direction="left" data-speed="fast">
-            <div class="scroller__inner">
+        <div className="scroller" data-direction="left" data-speed="fast">
+            <div className="scroller__inner">
                 <IconHtml5/>
                 <IconSquareJs/>
                 <IconBxlCss3/>

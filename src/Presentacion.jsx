@@ -8,7 +8,7 @@ function Presentacion() {
     <div className='body'>
 
       <div className='head'>
-        <span className='texto2'>¡Buenas! <span className='nombre'> Soy Rubén </span> </span> <text className='texto3'>Rubén Gutiérrez Ramírez</text>
+        <span className='texto2'>¡Buenas! <span className='nombre'> Soy Rubén </span> </span> <span className='texto3'>Rubén Gutiérrez Ramírez</span>
       
       </div>
       <div className='divperfil'>

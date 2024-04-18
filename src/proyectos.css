@@ -1,0 +1,49 @@
+.separador
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 1vw;
+}
+.textoimg
+{
+    max-width: 27vw;
+    width: auto;
+    height: auto;
+    text-align:left;
+    text-wrap: balance;
+}
+.imagen
+{
+border: solid rgb(9, 37, 9) 1px;
+width: 22vw;
+aspect-ratio: 16/9;
+min-height: 10vw;
+height: auto;
+background-size: cover;
+background-image: url("/Proyecto1.png");
+border-radius: 20px;
+}
+@media (max-width: 600px) {
+    .imagen
+    {
+
+
+    }
+    .separador
+    {
+    
+    
+    }
+    
+
+}
+.PButton
+{
+    cursor: pointer;
+}
+.PButton:hover
+{
+    background-color: #929292 !important;
+
+}
