@@ -30,11 +30,20 @@ background-size: cover;
 background-image: url("/Proyecto1.png");
 border-radius: 20px;
 }
+.span333
+{
+  margin-left:24.5vw;
+  margin-top: 50px;
+}
 @media (max-width: 600px) {
     .imagen
     {
 
 
+    }
+    .span333
+    {
+      margin-left:7vw;
     }
     .separador
     {

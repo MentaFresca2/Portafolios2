@@ -2,13 +2,14 @@ import "./proyectos.css"
 import Firebase from "./Icons/Firebase.jsx";
 import React from "./Icons/React.jsx";
 import PButton from "./Icons/PButton.jsx";
+import "./Icons/Icons.css"
 function Proyectos(){
 return(
 <>
 
 
 
-    <span style={{width:"100%", display:"flex",alignItems:"center",justifyContent:"center",color:"white",fontSize:"200%",marginTop:"40px"}}> <b>Proyectos</b> </span>
+    <span className="span333" style={{width:"100%",color:"white",fontSize:"250%"}}> <b>Proyectos</b> </span>
     <section style={{marginTop:"20px"}} className="separador">
         <div style={{}} className="imagen"></div>
         <div style={{ color:"white"}} className="textoimg">
@@ -24,7 +25,7 @@ return(
             </div>
            
     </section>
-    <div style={{height:"2000px"}}></div>
+    <div style={{height:"2000px"}}></div> {/*<==Temporal*/}
 </>
 
 

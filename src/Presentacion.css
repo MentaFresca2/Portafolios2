@@ -17,6 +17,7 @@ body {
   padding: 20px;
   align-self: center;
   width: 50vw;
+  height: auto;
 }
 .uno{
 display: flex;
@@ -60,9 +61,7 @@ flex-direction: column;
   margin-bottom: 10px;
   
 }
-@media screen {
-  
-}
+
 .divperfil {
   display: flex;
   gap: 100px;
@@ -70,12 +69,18 @@ flex-direction: column;
   margin-top: 20px;
   width: 100%;
   justify-content: space-between;
-  height: 250px;
+  height: auto;
 }
 
-/* @media es para poner ifs
-y -webkit-min-device-pixel-ratio es para la densidad de pixeles */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 768px) {
+@media (max-width: 1300px) 
+{
+  .body {
+    width: 80vw;
+    padding: 0 20px 20px 20px;
+    margin: 0 0 0 0;
+  }
+}
+@media (max-width: 800px) {
     .body {
       width: 100vw;
       padding: 0 20px 20px 20px;
