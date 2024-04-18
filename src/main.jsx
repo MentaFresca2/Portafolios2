@@ -8,10 +8,10 @@ import Proyectos from "./proyectos.jsx"
 
 ReactDOM.createRoot(document.getElementById('root')).render( //esta cosa crea un fokin div con id root que epico xd
   <React.StrictMode>  
-   
+   <div className='bg'>
     <Presentacion />
     <Animacion/>
     <Proyectos/>
-    
+    </div>
   </React.StrictMode>
 )

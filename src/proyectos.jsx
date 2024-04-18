@@ -4,9 +4,12 @@ import React from "./Icons/React.jsx";
 import PButton from "./Icons/PButton.jsx";
 function Proyectos(){
 return(
-<center>
-<div style={{display:"flex",marginTop:"20px",flexDirection:"column",width:"100vw",height:"auto",justifyContent:"center"}}>
-    <section style={{}} className="separador">
+<>
+
+
+
+    <span style={{width:"100%", display:"flex",alignItems:"center",justifyContent:"center",color:"white",fontSize:"200%",marginTop:"40px"}}> <b>Proyectos</b> </span>
+    <section style={{marginTop:"20px"}} className="separador">
         <div style={{}} className="imagen"></div>
         <div style={{ color:"white"}} className="textoimg">
             <p style={{margin:"0 0 0 0",fontSize:"200%",display:"flex",flexDirection:"column"}}> 
@@ -21,6 +24,8 @@ return(
             </div>
            
     </section>
+    <div style={{height:"2000px"}}></div>
+</>
 
 
 
@@ -30,9 +35,6 @@ return(
 
 
 
-
-</div>
-</center>
 
 )}
 

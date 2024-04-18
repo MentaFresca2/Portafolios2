@@ -1,6 +1,6 @@
 .scroller {
     max-width: 600px;
-    width: 300px;
+    width: 450px;
 }
 
   .scroller__inner {
@@ -22,9 +22,8 @@
     mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   }
   .iconoAnim{
-fill: #de89be;
-width: 40px;
-height: 40px;
+width: 60px;
+height: 60px;
 
   }
 
@@ -85,4 +84,13 @@ height: 40px;
   .test {
     background: red !important;
   }
-  
+  @media (max-width: 600px) 
+  {
+
+    .iconoAnim{
+      width: 40px;
+      height: 40px;
+      
+        }
+
+  }

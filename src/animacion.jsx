@@ -5,6 +5,8 @@ import IconHtml5 from "./assets/iconohtml5.jsx"
 import IconBxlCss3 from "./assets/iconocss.jsx"
 import IconSquareJs from "./assets/iconojs.jsx"
 import IconVite from "./assets/iconovite.jsx"
+import IconLogoFirebase from "./assets/iconofirebase.jsx"
+import IconTailwind from "./assets/iconotail.jsx"
 function Animacion() {
   useEffect(() => { //Esto hace que se ejecute cuando se renderize en el dom y cuando tu digas, en este caso solo en el dom porque el segundo argumento esta vacio.
     const scrollers = document.querySelectorAll(".scroller");
@@ -40,6 +42,8 @@ function Animacion() {
                 <IconBxlCss3/>
                 <IconReact/>
                 <IconVite/>
+                <IconTailwind/>
+                <IconLogoFirebase/>
             </div>
         </div>
     </div>

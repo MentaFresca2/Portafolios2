@@ -4,7 +4,7 @@ function IconReact(props) {
     return (
       <svg
         viewBox="0 0 512 512"
-        fill="currentColor"
+        fill="#66dbfb"
         className="iconoAnim"
         height="1em"
         width="1em"

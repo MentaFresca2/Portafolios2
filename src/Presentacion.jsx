@@ -13,8 +13,8 @@ function Presentacion() {
       </div>
       <div className='divperfil'>
         <span className='texto'>
-          Soy un entusiasta del desarrollo web con experiencia en HTML, CSS y JavaScript en React. <br />
-          Aunque no tengo experiencia laboral formal, <br /> estoy emocionado por aplicar mis habilidades y aprender en un entorno profesional. <br />
+          Soy un <strong>entusiasta del desarrollo web </strong> con practica en <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b> con <b>React</b>. 
+          ESTO EN EL SOBRE MI :Aunque no tengo experiencia laboral formal,  estoy emocionado por aplicar mis habilidades y aprender en un entorno profesional. 
           Busco oportunidades para crecer y contribuir con mi pasión por la programación al mundo laboral.
         </span>
         <div style={{display: "flex", flexDirection:"row"}}>

@@ -5,7 +5,7 @@ function IconHtml5(props) {
     <svg
       viewBox="0 0 1024 1024"
       className="iconoAnim"
-      fill="currentColor"
+      fill="#e96228"
       height="1em"
       width="1em"
       {...props}

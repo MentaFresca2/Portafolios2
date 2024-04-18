@@ -3,11 +3,11 @@ body {
   
   font-family: 'Roboto Mono', monospace;
 }
-html {
+.bg {
   height: 100%;
   background-color:#73DEA9;
   background: radial-gradient(ellipse at top, rgba(24, 46, 35,1), rgba(9, 10, 15, 1));
-  overflow: hidden;
+  background-size: 100% 100%;
 }
 
 .body {
@@ -34,22 +34,23 @@ flex-direction: column;
 }
 
 .texto {
-  color: #FDCFF3;
-  font-size: 1.8vh;
+  color: white;
+  font-size: 2vh;
   width: 40vw;
   max-width: 100%;
 }
 
 .texto2 {
-  color: #FDCFF3;
+  color: white;
   font-size: 4vh;
   margin-bottom: 10px;
 }
 
 .texto3 {
-  color: #FDCFF3;
-  font-size: 1.8vh;
+  color: white;
+  font-size: 2vh;
   margin-top: 10px;
+  text-wrap: balance;
 }
 
 .perfilimg {
@@ -59,9 +60,12 @@ flex-direction: column;
   margin-bottom: 10px;
   
 }
-
+@media screen {
+  
+}
 .divperfil {
   display: flex;
+  gap: 100px;
   align-items: center;
   margin-top: 20px;
   width: 100%;
@@ -77,7 +81,6 @@ y -webkit-min-device-pixel-ratio es para la densidad de pixeles */
       padding: 0 20px 20px 20px;
       margin: 0 0 0 0;
     }
-  
     .texto {
       font-size: 1.5vh;
     }
@@ -101,6 +104,7 @@ y -webkit-min-device-pixel-ratio es para la densidad de pixeles */
     .divperfil{
       justify-content: space-around;
       align-items: flex-start;
+      gap: 0;
       
 
     }

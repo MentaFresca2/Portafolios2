@@ -6,7 +6,7 @@
           <svg
             viewBox="0 0 448 512"
             className="iconoAnim"
-            fill="currentColor"
+            fill="#84bf09"
             height="1em"
             width="1em"
             {...props}

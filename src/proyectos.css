@@ -1,3 +1,9 @@
+:root {
+    --color: #ff0000;
+    --hover: #00ff00;
+  }
+
+
 .separador
 {
 display: flex;
@@ -38,12 +44,48 @@ border-radius: 20px;
     
 
 }
-.PButton
-{
+.PButton {
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
     cursor: pointer;
-}
-.PButton:hover
-{
-    background-color: #929292 !important;
-
-}
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    background-color: #182d23;
+  background-image: linear-gradient(315deg, #182d23 0%, #182d23 74%);
+    border: none;
+    z-index: 1;
+  }
+  .PButton:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+     background-color: #3e785d;
+  
+    transition: all 0.3s ease;
+  }
+  .PButton:hover {
+    color: #fff;
+  }
+  .PButton:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  .PButton:active {
+    top: 2px;
+  }
+  
+  
