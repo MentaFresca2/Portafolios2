@@ -1,12 +1,12 @@
 
 function React() {
     
-    return (<div style={{display:"flex",alignItems:"center",width:"5vw",height:"1.3vw",backgroundColor:"#097c8d", borderRadius:"100px",paddingLeft:"7px",gap:"7px"}}>
+    return (<div className="icoreact" style={{display:"flex",alignItems:"center",backgroundColor:"#097c8d", borderRadius:"100px",paddingLeft:"7px",gap:"7px"}}>
         <svg
     viewBox="0 0 34 32"
     fill="#01EFFF"
     height="auto"
-    width="1.3vw"
+    className="ico"
   >
     <path
       fill="#01EFFF"
