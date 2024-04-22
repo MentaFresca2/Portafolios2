@@ -1,11 +1,11 @@
 
-function PButton (){
+function PButton (link){
     
-    
+    var link1 = link.link //Menudos nombres pongo xd
     
     return(
 
-<a style={{textDecoration:"none"}} href="https://github.com/MentaFresca2/FirebaseTable"><button className="PButton raise" style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
+<a style={{textDecoration:"none"}} href={link1}><button className="PButton raise" style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
 viewBox="0 0 1024 1024"
 fill="currentColor"
 height="auto"

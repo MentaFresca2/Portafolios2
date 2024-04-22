@@ -13,12 +13,12 @@ function Tabla (){
                 <p style={{margin:"0 0 0 0",fontSize:"200%",display:"flex",flexDirection:"column"}}> 
                     <strong>Tabla de Firebase</strong>
                     <div style={{display:"flex",gap:"10px"}}>
-                    <Firebase/> 
                     <React/>
+                    <Firebase/> 
                     </div>
                 </p>
                 <p>Puedes añadir, eliminar y modificar elementos, así como sumar o restar cantidades configurando tu propia base de datos.</p>  
-                <PButton/>
+                <PButton link={"https://github.com/MentaFresca2/FirebaseTable"}/>
                 </div>
 
         </section>
