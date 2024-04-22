@@ -4,7 +4,7 @@ function Codeico() {
     return (
 
       <svg
-      style={{width:"40px", height:"50px"}}
+      style={{width:"40px"}}
       viewBox="0 0 24 21"
       fill="#ffffff"
       

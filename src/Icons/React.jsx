@@ -5,7 +5,7 @@ function React() {
         <svg
     viewBox="0 0 34 32"
     fill="#01EFFF"
-    height="auto"
+   
     className="ico"
   >
     <path

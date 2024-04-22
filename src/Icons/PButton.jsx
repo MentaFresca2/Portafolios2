@@ -8,7 +8,7 @@ function PButton (link){
 <a style={{textDecoration:"none"}} href={link1}><button className="PButton raise" style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
 viewBox="0 0 1024 1024"
 fill="currentColor"
-height="auto"
+
 width="2.5vw"
 className="Pbutton"
 >
