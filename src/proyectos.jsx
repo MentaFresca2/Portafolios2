@@ -8,7 +8,7 @@ return(
 <>
 <center>
     <div className="divproyecto">
-        <span className="span333" style={{width:"100%",color:"white",fontSize:"250%", display:"flex"}}> <Codeico/> <b>Proyectos</b> </span>
+        <span className="span333" style={{width:"100%",color:"white",fontSize:"250%", display:"flex",gap:"20px"}}> <Codeico/> <b>Proyectos</b> </span>
             <Tabla/>
             <JuegoC/>
         <div style={{height:"2000px"}}></div> {/*<==Temporal*/}
