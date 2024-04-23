@@ -73,10 +73,17 @@ flex-direction: column;
   height: auto;
 }
 
+@media (max-width: 1450px) {
+  .body
+  {
+   width: 60vw;
+  }
+
+}
 @media (max-width: 1300px) 
 {
   .body {
-    width: 80vw !important;
+    width: 80vw;
     padding: 0 20px 20px 20px;
     margin: 0 0 0 0;
   }
