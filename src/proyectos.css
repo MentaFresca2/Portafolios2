@@ -21,13 +21,12 @@ gap: 1vw;
 .imagen
 {
 border: solid rgb(9, 37, 9) 1px;
-
+margin-bottom: 20px;
 width: 356px;
 height: 200px;
 aspect-ratio: 16/9;
 min-height: 10vw;
 background-size: cover;
-margin: 10px 0 0 0;
 border-radius: 20px;
 }
 .span333
