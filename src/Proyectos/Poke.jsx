@@ -5,7 +5,7 @@ function JuegoC (){
     
     
     return(
-        <section className="secpro" style={{marginTop:"20px",display:"flex",flexDirection:"row",width:"100%",justifyContent:"space-between"}}>
+        <section className="secpro" style={{display:"flex",flexDirection:"row",width:"100%",justifyContent:"space-between"}}>
             <div style={{ backgroundImage:"url('/Proyecto2.png')"}} className="imagen"></div>
             <div style={{ color:"white"}} className="textoimg">
                 <span style={{margin:"0 0 0 0",fontSize:"200%",display:"flex",flexDirection:"column"}}> 

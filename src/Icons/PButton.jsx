@@ -5,7 +5,7 @@ function PButton (link){
     
     return(
 
-<a style={{textDecoration:"none"}} href={link1}><button className="PButton" style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
+<a style={{textDecoration:"none"}} target="_blank" href={link1}><button className="PButton" style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
 viewBox="0 0 1024 1024"
 fill="currentColor"
 
