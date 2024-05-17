@@ -17,7 +17,7 @@ function Tabla (){
                     <Firebase/> 
                     </div>
                 </span>
-                <p>Puedes añadir, eliminar y modificar elementos, así como sumar o restar cantidades configurando tu propia base de datos.</p>  
+                <p>Puedes añadir, eliminar y modificar elementos configurando tu propia base de datos.</p>  
                 <PButton link={"https://github.com/MentaFresca2/FirebaseTable"}/>
                 </div>
 
