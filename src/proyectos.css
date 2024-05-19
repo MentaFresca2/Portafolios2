@@ -14,7 +14,7 @@
 }
 .imagen
 {
-border: solid rgb(9, 37, 9) 1px;
+border: solid rgb(1, 14, 1) 1px;
 margin-top: 8px;
 width: 356px;
 height: 200px;
@@ -22,7 +22,11 @@ aspect-ratio: 16/9;
 min-height: 10vw;
 background-size: cover;
 border-radius: 20px;
+outline: none;
+transition: all 0.3s ease;
+
 }
+
 .span333
 {
   display: flex;
@@ -134,7 +138,7 @@ border-radius: 20px;
     border: none;
     z-index: 1;
   }
-  .PButton:after {
+  .PButton::after {
     position: absolute;
     content: "";
     width: 100%;

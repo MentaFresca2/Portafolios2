@@ -34,7 +34,10 @@
     fill: #4a586e;
 
   }
+  .iconos:hover .svgIcon4 path {
+    fill: #1ad03f;
 
+  }
   .svgIcon path{
     fill: #ffffff;
     transition: all ease 0.5s;

@@ -1,8 +1,14 @@
 import PButton from "../Icons/PButton.jsx";
 import React from "../Icons/React.jsx";
+import { useEffect, useState } from "react";
 import Tailwind from "../Icons/Tailwind.jsx";
 function JuegoC (){
-    
+    const handleMouseOver = ()=> {document.getElementsByClassName("imagen")[1].style.borderColor = '#3e785d';}
+    const handleMouseLeave = ()=> {document.getElementsByClassName("imagen")[1].style.borderColor = 'rgb(1, 14, 1)';}
+
+
+
+
     
     return(
         <section className="secpro" style={{display:"flex",flexDirection:"row",width:"100%",justifyContent:"space-between"}}>
@@ -16,7 +22,7 @@ function JuegoC (){
                     </div>
                 </span>
                 <p>Recreacion de una pokedex. <br /> Es completamente funcional, pero no dice si es x2 o x4.</p>  
-                <PButton link={"https://github.com/MentaFresca2/poketipes"}/>
+                <PButton link={"https://github.com/MentaFresca2/poketipes"}  onMouseOver = {handleMouseOver} onMouseLeave = {handleMouseLeave}/>
                 </div>
 
         </section>
