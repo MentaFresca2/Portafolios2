@@ -8,7 +8,7 @@ function Presentacion() {
     <div className='body'>
 
       <div className='head'>
-        <span className='texto2'>¡Buenas! <span className='nombre'> Soy Rubén </span> </span> <span className='texto3'>Rubén Gutiérrez Ramírez</span>
+        <span className='texto2'>¡Buenas! <span className='nombre'> Soy Rubén </span> </span>
       
       </div>
       <div className='divperfil'>
@@ -19,7 +19,7 @@ function Presentacion() {
         </span>
        
         <div style={{display: "flex",alignItems:"flex-end", flexDirection:"column", justifyContent:"center",height:"250px"}}>
-          <img className='perfilimg' src="./assets/img1.webp" alt="fotoDePerfil" />
+          <img className='perfilimg' src="img1.webp" alt="fotoDePerfil" />
           <Icono/>
         </div>
         
