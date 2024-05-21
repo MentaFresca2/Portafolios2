@@ -84,7 +84,7 @@ height: 60px;
   .test {
     background: red !important;
   }
-  @media (max-width: 800px) 
+  @media (max-width: 900px) 
   {
 
     .iconoAnim{

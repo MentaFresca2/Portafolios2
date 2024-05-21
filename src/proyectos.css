@@ -74,10 +74,12 @@ transition: all 0.3s ease;
   }
   .textoimg
   {
+ 
     width:  37vw;
   }
   .imagen
   {
+    
     width: 356px;
     height: 200px;
 
@@ -86,7 +88,7 @@ transition: all 0.3s ease;
 }
 
   
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
   .secpro
   {

@@ -1,11 +1,11 @@
 
 function PButton ({link, onMouseOver, onMouseLeave} ){
 
-    var link1 = link.link //Menudos nombres pongo xd
+   
     
     return(
 <>
-<a style={{textDecoration:"none",width:"130px",display:"flex"}} target="_blank" href={link1}><button className="PButton" onMouseLeave = {onMouseLeave}  onMouseOver={onMouseOver} style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
+<a style={{textDecoration:"none",width:"130px",display:"flex"}} target="_blank" href={link}><button className="PButton" onMouseLeave = {onMouseLeave}  onMouseOver={onMouseOver} style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
 viewBox="0 0 1024 1024"
 fill="currentColor"
 width="2vw"
