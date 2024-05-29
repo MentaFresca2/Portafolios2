@@ -3,7 +3,7 @@ import './icono.css';
 
 function Icono() {
   return (
-    <div style={{ display: "flex",width:"100%", flexDirection: "row", gap:"10px",justifyContent:"center"}}>
+    <div style={{ display: "flex",width:"100%",height:"100%", flexDirection: "row", gap:"10px",justifyContent:"center"}}>
 
 
       <div className='iconos'>

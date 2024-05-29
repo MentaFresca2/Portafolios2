@@ -43,17 +43,12 @@ transition: all 0.3s ease;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
   align-self: center;
   width: 900px;
   height: auto;
 }
 @media (max-width: 1450px) 
 {
-.divproyecto
-{
-  
-}
 .textoimg
 {
   width:  430px;
@@ -65,13 +60,7 @@ transition: all 0.3s ease;
 
 }
 }
-@media (max-width: 1300px) {
-  .divproyecto
-  {
-    
-  }
-}
-  
+
 @media (max-width: 900px) {
 
   .secpro
