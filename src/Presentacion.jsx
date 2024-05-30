@@ -24,7 +24,6 @@ function Presentacion() {
           <img className='perfilimg' src="img1.webp" alt="fotoDePerfil" />
           <Icono/>
         </div>
-        
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-function Card ({img,url,children}){
+function Card ({img,url,title,children}){
     const [color,setColor] = useState("rgb(1, 14, 1)") 
 
   
@@ -13,7 +13,7 @@ function Card ({img,url,children}){
             <img src={img} className="imagen" style={{border:`solid 2px ${color}`}}/>
             <div style={{ color:"white"}} className="textoimg">
                 <span style={{margin:"0 0 0 0",fontSize:"200%",display:"flex",flexDirection:"column"}}> 
-                    <strong>Pokedex funcional</strong>
+                    <strong>{title}</strong>
                 </span>
                 {children}  
                 <a style={{textDecoration:"none",width:"130px",display:"flex"}} target="_blank" href={url}><button className="PButton" onMouseLeave = {() => {setColor("rgb(1, 14, 1)")}}  onMouseOver={()=>{setColor("#3e785d")}} style={{display:"flex",gap:"10px",justifyContent:"center",alignItems:"center"}}>    <svg
