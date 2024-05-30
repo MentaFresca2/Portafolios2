@@ -1,0 +1,22 @@
+function Estudios ()
+{
+    return(
+<>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</>
+    );
+
+}

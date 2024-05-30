@@ -19,9 +19,9 @@ return(
                     <React/>
                     <Tailwind/>
                 </div>
-                <p>Recreacion de una pokedex. <br /> Es completamente funcional, pero no dice si es x2 o x4.</p>
+                <p>Recreacion de una pokedex. <br /> Es completamente funcional <br /> aunque no dice si es x2 o x4.</p>
             </Card>
-            <Card img="/Proyecto1.png" url="https://github.com/MentaFresca2/FirebaseTable"ico0={<React/>} ico1 = {<Firebase/>}>
+            <Card img="/Proyecto1.png" url="https://github.com/MentaFresca2/FirebaseTable">
                 <div style={{display:"flex",gap:"10px",fontSize:"200%"}}>
                     <React/>
                     <Firebase/>         
