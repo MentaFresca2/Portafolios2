@@ -43,8 +43,8 @@ flex-direction: column;
 
 .texto {
   color: white;
-  font-size: large;
-  width: 460px;
+  font-size: medium;
+  width: 350px;
   max-width: 100%;
 }
 

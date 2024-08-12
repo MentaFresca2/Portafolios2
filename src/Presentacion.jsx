@@ -14,9 +14,9 @@ function Presentacion() {
       
       
         <span className='texto2'>¡Buenas!  <span className='nombre'> Soy Rubén </span> </span> <br />
-        <span className='texto'>
+        <span className='texto' style={{textAlign:'justify'}}>
         
-          Soy un <b className='color'>entusiasta del desarrollo web </b> con practica en <b className='color'>HTML</b>, <b className='color'>CSS</b> y <b className='color'>JavaScript</b> con <b className='color'>React</b> y aunque no tengo experiencia laboral formal,  estoy emocionado por aplicar mis habilidades y aprender en un entorno profesional. 
+          Soy un <b className='color'>entusiasta del desarrollo web </b> con practica en <b className='color'>creacion de paginas web</b> y <b className='color'>C++</b> con <b className='color'>React</b> y aunque no tengo experiencia laboral,  estoy altamente emocionado por aplicar mis habilidades y aprender en un entorno profesional. 
           
         </span>
         </div>
