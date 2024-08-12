@@ -61,7 +61,8 @@ height: 60px;
   .divanim{
     display: flex;
     justify-content: center;
-
+    position: relative;
+    right: 65px;
 
 
   }
