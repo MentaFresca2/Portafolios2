@@ -28,7 +28,7 @@ return(
                 </div>
                 <p>Puedes añadir, eliminar y modificar elementos configurando tu propia base de datos.</p> 
             </Card>
-            <Card img="/Proyecto1.png" url="https://github.com/MentaFresca2/Motor" title="Motor grafico">
+            <Card img="/Proyecto3.png" url="https://github.com/MentaFresca2/Motor" title="Motor grafico">
                 <div style={{display:"flex",gap:"10px",fontSize:"200%"}}>
                     <Cpp/>        
                 </div>
