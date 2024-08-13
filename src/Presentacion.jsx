@@ -21,7 +21,7 @@ function Presentacion() {
         </span>
         </div>
         <div className='imgpre' style={{display: "flex", flexDirection:"column", justifyContent:"center",height:"250px",alignItems:"center"}}>
-          <img className='perfilimg' src="img1.webp" alt="fotoDePerfil" />
+          <img className='perfilimg' src="yo.jpeg" alt="fotoDePerfil" />
           <Icono/>
         </div>
       </div>
