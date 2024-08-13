@@ -87,6 +87,14 @@ height: 60px;
   }
 @media (max-width: 900px) 
 {
+  .divanim{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+
+
+  }
 
  .iconoAnim{
   width: 40px;

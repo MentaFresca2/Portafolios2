@@ -4,7 +4,7 @@ export function Estudios ()
 
 {
     return(
-      <div style={{display:"flex",justifyItems:"center",alignItems:"center",flexDirection:"column"}}>
+      <div style={{display:"flex",justifyItems:"center",alignItems:"center",flexDirection:"column",}}>
     <span style={{display:"flex",gap:"20px"}} className="titleestudios">
       <svg version="1.1" id="Layer_1" width="40px" fill="white" x="0px" y="0px" viewBox="0 0 122.88 101.37" xmlSpace="preserve">
         <g>
