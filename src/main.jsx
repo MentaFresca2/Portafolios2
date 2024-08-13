@@ -13,8 +13,9 @@ ReactDOM.createRoot(document.getElementById('root')).render( //esta cosa crea un
    <div className='bg'>
     <Presentacion />
     <Animacion/>
-    <Proyectos/>
     <Estudios/>
+    <Proyectos/>
+
     </div>
   </React.StrictMode>
 )

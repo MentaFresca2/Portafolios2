@@ -2,8 +2,18 @@
 {
     display: flex;
     flex-direction: row;
-    margin: 20px 0 0 20px;
+    margin: 0px 0 100px 20px;
     color: white;
     width: 900px;
+    gap: 50px;
     font-size: medium;
+
+}
+.titleestudios
+{
+    display: flex;
+    margin: 100px 0 0 20px;
+    color: white;
+    width: 900px;
+
 }

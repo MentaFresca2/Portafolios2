@@ -37,14 +37,7 @@ transition: all 0.3s ease;
   margin-top: 50px;
   gap: 50px;
 }
-.titleestudios
-{
-    display: flex;
-    margin: 100px 0 0 20px;
-    color: white;
-    width: 900px;
 
-}
 .divproyecto
 {
   margin: 0 0 0 15px;
